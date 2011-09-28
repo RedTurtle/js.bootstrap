@@ -15,7 +15,7 @@ long_description = (
     read('CHANGES.txt'))
 
 setup(
-    name='js.boostrap',
+    name='js.bootstrap',
     version=version,
     description="fanstatic twitter bootstrap.",
     long_description=long_description,
