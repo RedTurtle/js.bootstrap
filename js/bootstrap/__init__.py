@@ -11,14 +11,14 @@ bootstrap_dropdown = Resource(library, 'bootstrap-dropdown.js',
                               depends=[jquery,])
 bootstrap_modal = Resource(library, 'bootstrap-modal.js',
                            depends=[jquery,])
+bootstrap_twipsy = Resource(library, 'bootstrap-twipsy.js',
+                            depends=[jquery,])
 bootstrap_popover = Resource(library, 'bootstrap-popover.js',
-                             depends=[jquery,])
+                             depends=[jquery, bootstrap_twipsy])
 bootstrap_scrollspy = Resource(library, 'bootstrap-scrollspy.js',
                                depends=[jquery,])
 bootstrap_tabs = Resource(library, 'bootstrap-tabs.js',
                           depends=[jquery,])
-bootstrap_twipsy = Resource(library, 'bootstrap-twipsy.js',
-                            depends=[jquery,])
 
 bootstrap = Group([bootstrap_css, bootstrap_alerts, bootstrap_dropdown,
                    bootstrap_modal, bootstrap_popover, bootstrap_scrollspy,
