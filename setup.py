@@ -36,7 +36,7 @@ setup(
         ],
     entry_points={
         'fanstatic.libraries': [
-            'bootstrap = js.boostrap:library',
+            'bootstrap = js.bootstrap:library',
             ],
         },
     )
