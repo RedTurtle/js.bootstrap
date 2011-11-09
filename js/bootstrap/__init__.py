@@ -19,7 +19,9 @@ bootstrap_scrollspy = Resource(library, 'bootstrap-scrollspy.js',
                                depends=[jquery,])
 bootstrap_tabs = Resource(library, 'bootstrap-tabs.js',
                           depends=[jquery,])
+bootstrap_buttons = Resource(library, 'bootstrap-buttons.js',
+                          depends=[jquery,])
 
 bootstrap = Group([bootstrap_css, bootstrap_alerts, bootstrap_dropdown,
                    bootstrap_modal, bootstrap_popover, bootstrap_scrollspy,
-                   bootstrap_tabs, bootstrap_twipsy])
+                   bootstrap_tabs, bootstrap_twipsy, bootstrap_buttons])
