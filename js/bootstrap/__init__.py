@@ -31,8 +31,10 @@ bootstrap_transition = Resource(library, 'bootstrap-transition.js',
 bootstrap_typeahead = Resource(library, 'bootstrap-typeahead.js',
                                depends=[jquery,])
 
+bootstrap_responsive = Resource(library, 'bootstrap-responsive.css', depends=[bootstrap_css,])
+
 bootstrap = Group([bootstrap_css, bootstrap_alerts, bootstrap_dropdown,
                    bootstrap_modal, bootstrap_popover, bootstrap_scrollspy,
                    bootstrap_tabs, bootstrap_tooltip, bootstrap_buttons,
-                   bootstrap_carousel, bootstrap_collapse, bootstrap_transition, bootstrap_typeahead
+                   bootstrap_carousel, bootstrap_collapse, bootstrap_transition, bootstrap_typeahead, bootstrap_responsive
                    ])

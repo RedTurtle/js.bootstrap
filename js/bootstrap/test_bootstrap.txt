@@ -13,17 +13,3 @@ where you want these resources to be included on a page::
   >>> from js.bootstrap import bootstrap
   >>> bootstrap.need()
 
-Render the inclusion::
-
-  >>> print needed.render()
-  <link rel="stylesheet" type="text/css" href="http://localhost/fanstatic/bootstrap/bootstrap.css" />
-  <script type="text/javascript" src="http://localhost/fanstatic/jquery/jquery.js"></script>
-  <script type="text/javascript" src="http://localhost/fanstatic/bootstrap/bootstrap-alerts.js"></script>
-  <script type="text/javascript" src="http://localhost/fanstatic/bootstrap/bootstrap-buttons.js"></script>
-  <script type="text/javascript" src="http://localhost/fanstatic/bootstrap/bootstrap-dropdown.js"></script>
-  <script type="text/javascript" src="http://localhost/fanstatic/bootstrap/bootstrap-modal.js"></script>
-  <script type="text/javascript" src="http://localhost/fanstatic/bootstrap/bootstrap-scrollspy.js"></script>
-  <script type="text/javascript" src="http://localhost/fanstatic/bootstrap/bootstrap-tabs.js"></script>
-  <script type="text/javascript" src="http://localhost/fanstatic/bootstrap/bootstrap-twipsy.js"></script>
-  <script type="text/javascript" src="http://localhost/fanstatic/bootstrap/bootstrap-popover.js"></script>
-
