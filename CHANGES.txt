@@ -1,6 +1,11 @@
 CHANGES
 *******
 
+2.0a (Unreleased)
+=================
+
+- first integration with responsive twitter bootstrap 2.0 [amleczko]
+
 1.4 (09-11-2011)
 ================
 
