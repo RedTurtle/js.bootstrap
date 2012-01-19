@@ -4,8 +4,7 @@ from js.lesscss import LessResource
 
 library = Library('bootstrap', 'resources')
 
-bootstrap_css = Resource(library, 'bootstrap.css',
-                         minified='bootstrap.min.css')
+bootstrap_css = Resource(library, 'bootstrap.css', minified='bootstrap.min.css')
 
 bootstrap_alerts = Resource(library, 'bootstrap-alert.js',
                             depends=[jquery,])
@@ -31,13 +30,10 @@ bootstrap_transition = Resource(library, 'bootstrap-transition.js',
                                depends=[jquery,])
 bootstrap_typeahead = Resource(library, 'bootstrap-typeahead.js',
                                depends=[jquery,])
-
-bootstrap_responsive = Resource(library, 'bootstrap-responsive.css', depends=[bootstrap_css,])
-
-bootstrap_less_responsive = LessResource(library, 'responsive.less')
+bootstrap_less = LessResource(library, 'bootstrap.less')
 
 bootstrap = Group([bootstrap_css, bootstrap_alerts, bootstrap_dropdown,
                    bootstrap_modal, bootstrap_popover, bootstrap_scrollspy,
                    bootstrap_tabs, bootstrap_tooltip, bootstrap_buttons,
-                   bootstrap_carousel, bootstrap_collapse, bootstrap_transition, bootstrap_typeahead, bootstrap_responsive
+                   bootstrap_carousel, bootstrap_collapse, bootstrap_transition, bootstrap_typeahead
                    ])
