@@ -33,6 +33,7 @@ setup(
         'fanstatic',
         'js.jquery==1.7.1',
         'setuptools',
+        'js.lesscss',
         ],
     entry_points={
         'fanstatic.libraries': [

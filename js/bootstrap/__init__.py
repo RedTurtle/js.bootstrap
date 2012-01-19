@@ -1,5 +1,6 @@
 from fanstatic import Library, Resource, Group
 from js.jquery import jquery
+from js.lesscss import LessResource
 
 library = Library('bootstrap', 'resources')
 
@@ -32,6 +33,8 @@ bootstrap_typeahead = Resource(library, 'bootstrap-typeahead.js',
                                depends=[jquery,])
 
 bootstrap_responsive = Resource(library, 'bootstrap-responsive.css', depends=[bootstrap_css,])
+
+bootstrap_less_responsive = LessResource(library, 'responsive.less')
 
 bootstrap = Group([bootstrap_css, bootstrap_alerts, bootstrap_dropdown,
                    bootstrap_modal, bootstrap_popover, bootstrap_scrollspy,
