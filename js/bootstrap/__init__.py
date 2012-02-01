@@ -5,8 +5,8 @@ library = Library('bootstrap', 'resources')
 
 bootstrap_css = Resource(library, 'bootstrap.css',
                          minified='bootstrap.min.css')
-bootstrap_responsive_css = Resource(library, 'bootstrap.responsive',
-                                    minified='bootstrap.min.responsive',
+bootstrap_responsive_css = Resource(library, 'bootstrap.responsive.css',
+                                    minified='bootstrap.min.responsive.css',
                                     depends=[bootstrap_css,],)
 bootstrap_js = Resource(library, 'bootstrap.js',
                         minified='bootstrap.min.js',
