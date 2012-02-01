@@ -16,9 +16,9 @@ where you want these resources to be included on a page::
 Render the inclusion::
 
   >>> print needed.render()
-  <link rel="stylesheet" type="text/css" href="http://localhost/fanstatic/bootstrap/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="http://localhost/fanstatic/bootstrap/css/bootstrap.css" />
   <script type="text/javascript" src="http://localhost/fanstatic/jquery/jquery.js"></script>
-  <script type="text/javascript" src="http://localhost/fanstatic/bootstrap/bootstrap.js"></script>
+  <script type="text/javascript" src="http://localhost/fanstatic/bootstrap/js/bootstrap.js"></script>
 
 And if you want to use the new responsive design::
 
@@ -26,5 +26,5 @@ And if you want to use the new responsive design::
   >>> from js.bootstrap import bootstrap_responsive_css
   >>> bootstrap_responsive_css.need()
   >>> print needed_responsive.render()
-  <link rel="stylesheet" type="text/css" href="http://localhost/fanstatic/bootstrap/bootstrap.css" />
-  <link rel="stylesheet" type="text/css" href="http://localhost/fanstatic/bootstrap/bootstrap.responsive.css" />
+  <link rel="stylesheet" type="text/css" href="http://localhost/fanstatic/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="http://localhost/fanstatic/bootstrap/css/bootstrap.responsive.css" />

@@ -4,8 +4,7 @@ CHANGES
 2.1 (unreleased)
 ================
 
-- Nothing changed yet.
-
+- add also bootstrap images [amleczko]
 
 2.0 (2012-02-01)
 ================
