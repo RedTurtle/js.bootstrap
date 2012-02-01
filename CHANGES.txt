@@ -1,7 +1,7 @@
 CHANGES
 *******
 
-2.1 (unreleased)
+2.1 (2012-02-01)
 ================
 
 - add also bootstrap images [amleczko]
