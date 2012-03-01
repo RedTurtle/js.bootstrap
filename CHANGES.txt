@@ -1,8 +1,8 @@
 CHANGES
 *******
 
-2.1.1 (unreleased)
-================
+2.1.1 (2012-03-01)
+==================
 
 - Pin to bootstrap version 2.1 [amleczko]
 
