@@ -27,4 +27,4 @@ And if you want to use the new responsive design::
   >>> bootstrap_responsive_css.need()
   >>> print needed_responsive.render()
   <link rel="stylesheet" type="text/css" href="http://localhost/fanstatic/bootstrap/css/bootstrap.css" />
-  <link rel="stylesheet" type="text/css" href="http://localhost/fanstatic/bootstrap/css/bootstrap.responsive.css" />
+  <link rel="stylesheet" type="text/css" href="http://localhost/fanstatic/bootstrap/css/bootstrap-responsive.css" />
