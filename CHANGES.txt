@@ -1,16 +1,15 @@
 CHANGES
 *******
 
-2.2 (unreleased)
-================
+2.1.3 (2012-05-19)
+==================
 
-- Nothing changed yet.
-
+- Update to bootstrap 2.0.3 [amleczko]
 
 2.1.1 (2012-03-01)
 ==================
 
-- Pin to bootstrap version 2.1 [amleczko]
+- Pin to bootstrap version 2.0.1 [amleczko]
 
 2.1 (2012-02-01)
 ================
