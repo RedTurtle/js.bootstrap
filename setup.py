@@ -23,7 +23,7 @@ setup(
     keywords='fanstatic twitter bootstrap redturtle',
     author='RedTurtle Developers',
     url = 'https://github.com/RedTurtle/js.bootstrap',
-    author_email='svilplone@redturtle.it',
+    author_email='sviluppoplone@redturtle.it',
     license='GPL',
     packages=find_packages(),
     namespace_packages=['js'],
