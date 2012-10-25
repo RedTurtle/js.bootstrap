@@ -1,6 +1,8 @@
 js.bootstrap
 ************
 
+.. image:: https://secure.travis-ci.org/RedTurtle/js.bootstrap.png
+
 Introduction
 ============
 
