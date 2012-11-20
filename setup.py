@@ -24,7 +24,7 @@ setup(
     author='RedTurtle Developers',
     url = 'https://github.com/RedTurtle/js.bootstrap',
     author_email='sviluppoplone@redturtle.it',
-    license='GPL',
+    license='BSD',
     packages=find_packages(),
     namespace_packages=['js'],
     include_package_data=True,
