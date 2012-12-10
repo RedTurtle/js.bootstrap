@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '2.1.7.dev0'
+version = '2.2.2'
 
 
 def read(*rnames):
@@ -22,7 +22,7 @@ setup(
     classifiers=[],
     keywords='fanstatic twitter bootstrap redturtle',
     author='RedTurtle Developers',
-    url = 'https://github.com/RedTurtle/js.bootstrap',
+    url='https://github.com/RedTurtle/js.bootstrap',
     author_email='sviluppoplone@redturtle.it',
     license='BSD',
     packages=find_packages(),
