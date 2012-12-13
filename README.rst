@@ -23,5 +23,3 @@ Contact
 
 * | Andrew Mleczko <``andrew.mleczko at redturtle.net``>
   | **RedTurtle Technology**, http://www.redturtle.net/
-
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/4ffd11a136d191aee2114eb08c79993a "githalytics.com")](http://githalytics.com/RedTurtle/js.bootstrap)
