@@ -1,7 +1,7 @@
 CHANGES
 *******
 
-2.3.0 (unreleased)
+2.3.0 (2013-02-26)
 ==================
 
 - Upgraded to bootstrap 2.3.0 [amleczko]
