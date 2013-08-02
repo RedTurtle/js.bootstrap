@@ -4,7 +4,7 @@ CHANGES
 2.3.2 (unreleased)
 ==================
 
-- Nothing changed yet.
+- updated to bootstrap 2.3.2 [tmassman]
 
 
 2.3.1 (2013-03-08)
