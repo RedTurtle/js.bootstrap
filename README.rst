@@ -9,7 +9,7 @@ Introduction
 This library packages `twitter bootstrap`_ for `fanstatic`_. It is aware of different modes (normal, minified).
 
 .. _`fanstatic`: http://fanstatic.org
-.. _`twitter bootstrap`: http://twitter.github.com/bootstrap/
+.. _`twitter bootstrap`: http://getbootstrap.com
 
 This requires integration between your web framework and ``fanstatic``,
 and making sure that the original resources (shipped in the ``resources``
