@@ -1,8 +1,8 @@
 CHANGES
 *******
 
-3.0 (unreleased)
-==================
+3.0 (2013-09-30)
+================
 
 - update to bootstrap 3.0 [Christian Klinger]
 
