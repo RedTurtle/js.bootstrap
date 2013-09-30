@@ -1,7 +1,7 @@
 js.bootstrap
 ************
 
-.. image:: https://travis-ci.org/RedTurtle/js.bootstrap.png?branch=master   :target: https://travis-ci.org/RedTurtle/js.bootstrap
+.. image:: https://travis-ci.org/RedTurtle/js.bootstrap.png?branch=master
 
 Introduction
 ============
