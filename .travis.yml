@@ -3,6 +3,7 @@ python:
   - "2.6"
   - "2.7"
 install:
-  - python bootstrap.py -v 2.1
+  - pip install setuptools --upgrade
+  - python bootstrap.py
   - bin/buildout
 script: bin/py.test js/bootstrap/test_bootstrap.txt
