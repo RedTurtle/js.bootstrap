@@ -1,7 +1,7 @@
 CHANGES
 *******
 
-3.1.1 (unreleased)
+3.1.1 (2014-04-23)
 ==================
 
 - Update to Bootstrap 3.1.1.
