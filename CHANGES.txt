@@ -1,10 +1,11 @@
 CHANGES
 *******
 
-3.0.3 (unreleased)
+3.1.1 (unreleased)
 ==================
 
-- Nothing changed yet.
+- Update to Bootstrap 3.1.1.
+  [davidjb]
 
 
 3.0.2 (2013-12-14)
