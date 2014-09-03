@@ -1,7 +1,7 @@
 CHANGES
 *******
 
-3.2 (unreleased)
+3.2 (2014-09-03)
 ================
 
 - Update to Bootstrap 3.2 [amleczko]
