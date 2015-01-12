@@ -1,10 +1,11 @@
 CHANGES
 *******
 
-3.2.1 (unreleased)
+3.3.1 (unreleased)
 ==================
 
-- Nothing changed yet.
+- Update to Bootstrap 3.3.1 [pabo3000]
+- Update bootstrap.py [pabo3000]
 
 
 3.2 (2014-09-03)
