@@ -1,10 +1,10 @@
 CHANGES
 *******
 
-3.4 (unreleased)
-================
+3.3.2 (unreleased)
+==================
 
-- Nothing changed yet.
+- Update to Bootstrap 3.3.2 [teixas]
 
 
 3.3.1 (2015-01-13)
