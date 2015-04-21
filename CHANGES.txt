@@ -1,10 +1,10 @@
 CHANGES
 *******
 
-3.3.3 (unreleased)
+3.3.4 (unreleased)
 ==================
 
-- Nothing changed yet.
+- Update to Bootstrap 3.3.4 [amleczko]
 
 
 3.3.2 (2015-04-17)
